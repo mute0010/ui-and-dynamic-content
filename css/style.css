@@ -1,0 +1,95 @@
+/* CSS reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* page styling*/
+body{
+font-family:'Open Sans', sans-serif;
+background:#eee;
+padding:40px;
+}
+
+/* widget container */
+.widget{
+max-width:45rem;
+margin:auto;
+background:#2e5b3f;
+padding:30px;
+text-align:center;
+color:#f1f7f3;
+}
+
+/* masthead image */
+header img{
+width:120px;
+margin-bottom:20px;
+}
+
+/* title */
+h1{
+font-family:'Bebas Neue', sans-serif;
+font-size:3rem;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+/* tagline */
+header p{
+margin-bottom:25px;
+font-size:0.9rem;
+color:#dfeee5;
+}
+
+/* input field */
+input{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+border:none;
+background:#e9f2ec;
+color:#1e3a2a;
+}
+
+/* button */
+button{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+background:#5f9f76;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+/* feedback message */
+.feedback{
+margin-bottom:10px;
+font-size:0.9rem;
+color:#ffdede;
+}
+
+/* list */
+ul{
+list-style:none;
+text-align:left;
+}
+
+/* list items */
+li{
+padding:10px 5px;
+border-bottom:1px solid #c6e1d2;
+}
+
+/* footer */
+footer{
+margin-top:20px;
+}
+
+footer a{
+margin:0 10px;
+color:#f1f7f3;
+text-decoration:none;
+}
